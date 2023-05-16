@@ -1,0 +1,23 @@
+.slide2 {
+  position: relative;
+}
+
+.slide2-img-black-vineyard {
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+}
+
+.slide2-img-vineyard {
+  position: absolute;
+  top: 145px;
+  right: 100px;
+  z-index: 2;
+}
+
+.slide2-img-bottle {
+  position: absolute;
+  top: 80px;
+  z-index: 3;
+  left: 59.5%;
+}
