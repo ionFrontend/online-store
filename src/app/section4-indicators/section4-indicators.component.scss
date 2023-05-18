@@ -1,0 +1,41 @@
+.indicators {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wine-bottle-flangship-min {
+  width: 951px;
+}
+.woodmart-title-container {
+  line-height: 70px;
+  font-size: 60px;
+}
+
+.woodmart-text-block {
+  line-height: 54px;
+  font-size: 44px;
+  color: #ac4455;
+  font-weight: 600;
+  margin: 0;
+}
+
+.text-block-wrapper {
+  color: #333;
+  font-size: 24px;
+  margin: 0;
+}
+
+.wine-parameters {
+  display: flex;
+  margin: 0;
+}
+
+.text-block {
+  color: #777;
+}
+
+.indicators-info {
+  width: 555px;
+  margin-right: -267px;
+  z-index: 2;
+}

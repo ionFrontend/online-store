@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {Section4IndicatorsComponent} from "./section4-indicators.component";
+import {MatButtonModule} from "@angular/material/button";
 
 
 
@@ -10,7 +11,8 @@ import {Section4IndicatorsComponent} from "./section4-indicators.component";
     Section4IndicatorsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatButtonModule
   ]
 })
 export class Section4IndicatorsModule { }
