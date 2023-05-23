@@ -1,0 +1,22 @@
+.section-about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.title-of-section {
+  line-height: 58px;
+  font-size: 48px;
+  color: #242424;
+}
+
+.subtitle-of-section {
+  line-height: 26px;
+  font-size: 16px;
+  color: #777;
+}
+
+.block-text {
+  width: 470px;
+}
