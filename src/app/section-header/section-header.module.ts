@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {SectionHeaderComponent} from "./section-header.component";
+import {MatButtonModule} from "@angular/material/button";
 
 
 
@@ -11,6 +12,7 @@ import {SectionHeaderComponent} from "./section-header.component";
   ],
   imports: [
     CommonModule,
+    MatButtonModule,
   ]
 })
 export class SectionHeaderModule { }
