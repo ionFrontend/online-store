@@ -1,5 +1,5 @@
 .section-header {
-  height: 1100px;
+  height: 980px;
 }
 
 .slide2 {
@@ -26,9 +26,37 @@
 
 .slide2-img-bottle {
   position: absolute;
-  right: 550px;
-  top: 65px;
+  right: 587px;
+  top: 83px;
   z-index: 3;
   width: 224px;
   height: 752px;
+}
+
+.section-header__title {
+  position: absolute;
+  z-index: 5;
+  color: white;
+
+  top: 240px;
+  left: 409px;
+}
+
+.title-1 {
+  font-size: 90px;
+  margin: 0;
+}
+
+.title-2 {
+  font-size: 90px;
+  margin: 0;
+}
+
+.title-3 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.button-shop {
+  margin-top: 40px;
 }
