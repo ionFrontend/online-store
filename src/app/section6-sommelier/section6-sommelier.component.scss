@@ -1,8 +1,9 @@
 .section-about {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 100px;
+  position: relative;
 }
 
 .title-of-section {
@@ -11,12 +12,31 @@
   color: #242424;
 }
 
+.name-of-section {
+  font-size: 30px;
+  color: #333333;
+  margin-top: 20px;
+}
+
 .subtitle-of-section {
   line-height: 26px;
   font-size: 16px;
   color: #777;
+  margin: 30px 0;
 }
 
 .block-text {
   width: 470px;
+}
+
+.image-sommelier {
+  width: 540px;
+  margin-right: 100px;
+}
+
+.backg-sommelier {
+  position: absolute;
+  z-index: -1;
+  left: 250px;
+  bottom: 0;
 }

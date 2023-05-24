@@ -1,22 +1,16 @@
-<div style="display: flex">
-  <div style="display: flex">
-    <div>
-      <div>1.</div>
-      <div>Harvesting.</div>
-      <div>The languages differ in their grammar, pronunciation words.</div>
-    </div>
-    <div>
-      <div>2.</div>
-      <div>Making.</div>
-      <div>Nam libero tempore, cum soluta nobis est eligendi optio cumque.</div>
-    </div>
-    <div>
-      <div>3.</div>
-      <div>Quality.</div>
-      <div>On the other hand, we denounce righteous indignation men.</div>
+<div class="section-stage" style="position: relative">
+  <div class="block-texts">
+    <div class="test" *ngFor="let item of items">
+      <div class="text-number">{{item.number}}</div>
+      <div class="text-step">{{item.step}}</div>
+      <div class="text-info">{{item.info}}</div>
     </div>
   </div>
-  <img src="https://e8e6h3g4.rocketcdn.me/wp-content/uploads/2018/08/wine-infobox-stamp-1.png" alt="test">
+  <img style="
+    position: absolute;
+    right: 293px;
+    top: -105px;
+    z-index: 5;" src="https://e8e6h3g4.rocketcdn.me/wp-content/uploads/2018/08/wine-infobox-stamp-1.png" alt="test">
 </div>
 
 

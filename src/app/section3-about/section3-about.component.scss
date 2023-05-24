@@ -1,8 +1,16 @@
 .section-about {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 100px;
+  position: relative;
+}
+
+.backg-about {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .title-of-section {
@@ -19,5 +27,10 @@
 
 .block-text {
   width: 470px;
+  margin-right: 100px;
+}
+
+.image-house {
+  width: 581px;
 }
 //background-image: url(https://e8e6h3g4.rocketcdn.me/wp-content/uploads/2018/08/wine-right-flangship.jpg?id=22011);

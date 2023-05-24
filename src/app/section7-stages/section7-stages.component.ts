@@ -12,4 +12,10 @@ export class Section7StagesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  items = [
+    {number: '1', step: "Harvesting.", info: "The languages differ in their grammar, pronunciation words."},
+    {number: '2', step: "Making.", info: "Nam libero tempore, cum soluta nobis est eligendi optio cumque."},
+    {number: '3', step: "Quality.", info: "On the other hand, we denounce righteous indignation men."}
+  ]
+
 }
